@@ -1,0 +1,35 @@
+*{
+margin: 0px;
+padding: 0px;
+} 
+.container1{
+    position: fixed;
+    background-color:rgb(2,2,66);
+    width:100px; 
+    min-height:100vh; 
+    height: 100%;
+}
+#letter-d{
+    padding-left: 33px;
+    color: white;
+    padding-top: 15px;
+    font-size: 40px;
+    font-family: "Arsenal SC", sans-serif;
+}
+.side-icon{
+    color: grey;
+    font-size: 20px;
+    padding-left: 33px;
+    padding-top: 20px;
+}
+.bxs-contact{
+    color: white;
+}
+.container2{
+   background-color:whitesmoke;
+   margin-left: 84px;
+   display: flex;
+   width:700px;
+   
+    
+}
