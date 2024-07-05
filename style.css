@@ -81,7 +81,6 @@ padding-left: 135px;
 font-family: "Public Sans", sans-serif;
 padding-top:28px;  
 color:rgb(64, 166, 243);
-background-color: b;
 
 
 }
@@ -112,7 +111,7 @@ background-color: b;
      padding-top: 100px;
 }
 .column2{
-    position:fixed ;
+   
     border-right: 3px solid  whitesmoke;  
     width: fit-content;
     padding-right:50px;
@@ -133,7 +132,7 @@ background-color: b;
      padding-left: 1px;
 }
 .contact{
-    width:650px;
+    width:640px;
     margin-left: 330px;
     padding: 6px;
     margin-top: 15px;
@@ -150,11 +149,240 @@ background-color: b;
      display: grid;
      grid-template-columns: repeat(2,auto);
 }
-.mateusz{
+.name{
+    font-family:"Public Sans", sans-serif ;
+    font-weight: normal;
+    font-size:16px;
+
+}
+.nav-name{
     margin-top: 15px;
     background:whitesmoke;
     border-radius: 5px;
     border:none;
-    width:260px;
+    width:310px;
+    padding: 6px;
+}
+.full{
+    padding-left: 330px;
+    font-family: "Public Sans", sans-serif;
+    font-size:16px;
+    font-weight:normal;
+    padding-top: 25px;
+}
+.dembek{
+    width:640px;
+    margin-left: 330px;
+    padding: 6px;
+    margin-top: 15px;
+    background:whitesmoke;
+    border-radius: 5px;
+    border:none;
+}
+.label2{
+    padding-left: 330px;
+    font-family: "Public Sans", sans-serif;
+    font-size:16px;
+    padding-top:20px; 
+    font-weight: normal;
+    display: grid;
+    grid-template-columns: repeat(2,auto); 
+}
+.status{
+    font-family:"Public Sans", sans-serif ;
+    font-weight: normal;
+    font-size:16px;
+}
+.status i{
+    color:red;
+    font-size: 10px;
+    padding-left: 1px;
+}
+.bangalore{
+    margin-top: 15px;
+    background:whitesmoke;
+    border-radius: 5px;
+    border:none;
+    width:310px;
+    padding: 6px;
+}
+.header{
+    padding-left: 330px;
+    font-family: "Public Sans", sans-serif;
+    font-size:16px;
+    padding-top: 25px;
+}
+.head{
+    padding-left: 330px;
+    font-family: "Public Sans", sans-serif;
+    font-size: 16px;
+    padding-top: 20px;
+    font-weight:normal ;
+}
+.add-1{
+    width:645px;
+    margin-left: 330px;
+    padding: 6px;
+    margin-top: 15px;
+    background:whitesmoke;
+    border-radius: 5px;
+    border:none;
+}
+.head2{
+    padding-left: 330px;
+    font-family: "Public Sans", sans-serif;
+    font-size: 16px;
+    padding-top: 20px;
+    font-weight:normal ;   
+}
+.add-2{
+    width:645px;
+    margin-left: 330px;
+    padding: 6px;
+    margin-top: 15px;
+    background:whitesmoke;
+    border-radius: 5px;
+    border:none; 
+}
+.label3{
+    padding-left: 330px;
+    font-family: "Public Sans", sans-serif;
+    font-size:16px;
+    padding-top:20px; 
+    font-weight: normal;
+    display: grid;
+    grid-template-columns: repeat(2,auto);    
+}
+.city{
+    font-family:"Public Sans", sans-serif ;
+    font-weight: normal;
+    font-size:16px;
+}
+.state{
+    margin-top: 15px;
+    background:whitesmoke;
+    border-radius: 5px;
+    border:none;
+    width:310px;
+    padding: 6px;
+}
+.label4{
+    padding-left: 330px;
+    font-family: "Public Sans", sans-serif;
+    font-size:16px;
+    padding-top:20px; 
+    font-weight: normal;
+    display: grid;
+    grid-template-columns: repeat(2,auto); 
+}
+.zip{
+    font-family:"Public Sans", sans-serif ;
+    font-weight: normal;
+    font-size:16px;
+}
+.con{
+    margin-top: 15px;
+    background:whitesmoke;
+    border-radius: 5px;
+    border:none;
+    width:310px;
+    padding: 6px; 
+}
+.country{
+    padding-left: 330px;
+     font-family: "Public Sans", sans-serif;
+     font-size:16px;
+     font-weight:normal;
+     padding-top: 25px;
+}
+.con2{
+    width:640px;
+    margin-left: 330px;
+    padding: 6px;
+    margin-top: 15px;
+    background:whitesmoke;
+    border-radius: 5px;
+    border:none;
+}
+.label5{
+    padding-left: 330px;
+    font-family: "Public Sans", sans-serif;
+    font-size:16px;
+    padding-top:20px; 
+    font-weight: normal;
+    display: grid;   
+}
+.column3{
+    display: flex;
+}
+.button1{
+    border-color:whitesmoke;
+    margin-top:100px;
+    margin-left: 25px;
+    padding: 6px;
+    background-color: white;
+    width: 210px;
+}
+.button1:hover{
+    background-color: whitesmoke;
+}
+.btndiv{
+    display: flex; 
+}
+ 
+.button2{
+    margin-top:100px;
+    padding: 6px;
+    background-color:rgb(221, 218, 218);
+    width: 210px;  
+}
+.line{
+    margin-top: 30px;
+    margin-left:25px;
+}
+.add-3{
+    margin-left: 25px;
+    font-family: "Public Sans", sans-serif;
+    font-size:16px;
+    margin-top: 30px;
+}
+.para1{
+    margin-left: 25px; 
+    margin-top: 7px;
+}
+.searchbar{
+    margin-left: 25px; 
+    margin-top: 20px;
+    font-weight: normal;
+    background-color: whitesmoke;
+    font-size: 18px;
+    padding: 7px;
 }
 
+.user{
+    margin-left: 25px; 
+    margin-top: 10px;  
+    color: rgb(220, 219, 219);
+}
+/* .parahead1{
+    padding-left:  60px;
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: auto auto;
+    border: 1px solid rgba(128, 128, 128, 0.507);
+    border-radius: 3px;
+    width: 350px;
+    padding: 28px;
+    color:rgba(128, 128, 128, 0.507);
+    font-size: 10px;
+} */
+.para3{
+/* padding-top:50px; */
+/* padding-right:220px; */
+}
+.border1{
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px 25px;
+    display: flex;
+}
